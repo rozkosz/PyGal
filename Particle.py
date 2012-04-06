@@ -33,7 +33,8 @@ class Particle(object):
     # Arguments: N/A
     # Returns: number
     @property
-    def ke( self ):        
+    def ke( self ):
+        
         # Kinetic energy = .5 * mass * velocity**2
-        return 0.5 * ( self.mass * ( numpy.sum( v**2 for v in self.velocity ) ) )
+        return ( 0.5 * self.mass ) * ( numpy.sum( v**2 for v in self.velocity ) ) )
     
