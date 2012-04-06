@@ -1,1 +1,1 @@
-Python Galixy Colisions!
+Python Galaxy Colisions!

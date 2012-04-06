@@ -36,5 +36,5 @@ class Particle(object):
     def ke( self ):
         
         # Kinetic energy = .5 * mass * velocity**2
-        return ( 0.5 * self.mass ) * ( numpy.sum( v**2 for v in self.velocity ) ) )
+        return ( ( 0.5 * self.mass ) * ( numpy.sum( v**2 for v in self.velocity ) ) )
     
